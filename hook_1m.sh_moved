@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#creating Bluetooth list - found devices 
+/wabbit/exec/list_neighbour.sh
