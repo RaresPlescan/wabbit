@@ -3,4 +3,4 @@
 #creating Bluetooth list - found devices 
 /wabbit/exec/list_neighbour.sh
 /wabbit/exec/compute.sh
-/wabbit/exec/send_json.sh_working_heroku
+/wabbit/exec/send_json.sh_working_local

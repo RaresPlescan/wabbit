@@ -9,4 +9,4 @@ mac="11:22:33:44:55:66"
 #curl -u 'username:password' -d '{"title":"Test Deploy Key", "key":"'$public_key'"}' -i https://api.github.com/repos/username/repository/keys
 #curl -u 'user:' --data-binary @/wabbit/tmp/computed_list.txt -i 172.28.101.44:3000/macs
 #curl --data-binary @list_computed.txt -i http://frozen-gorge-8154.herokuapp.com/macs
-curl --data-binary @list_computed.txt -i http://wabbit.herokuapp.com/macs
+curl --data-binary @/wabbit/tmp/list_computed.txt -i http://wabbit.herokuapp.com/macs
