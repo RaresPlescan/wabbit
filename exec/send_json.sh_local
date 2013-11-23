@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mac="11:22:33:44:55:66"
+
+curl --data-binary @/wabbit/tmp/list_computed.txt -i 10.11.69.225:3000/macs
